@@ -7,7 +7,7 @@ We recommend dropping Mercator's directory into your mu-plugins directory. You m
 
 Then create a wp-content/sunrise.php file with the following:
 
-<?php
+
 // Default mu-plugins directory if you haven't set it
 defined( 'WPMU_PLUGIN_DIR' ) or define( 'WPMU_PLUGIN_DIR', WP_CONTENT_DIR . '/mu-plugins' );
 
